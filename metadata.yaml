@@ -4,7 +4,7 @@ versions:
   # Latest version first. The sha must reference the commit that contains the
   # template.tpl you want published. Get it from the commit view in GitHub
   # (clipboard icon copies the full SHA).
-  - sha: "REPLACE_WITH_FULL_COMMIT_SHA"
+  - sha: "167c8edc8cc00370b2fca81ab431c0f69edb57ba"
     changeNotes: |
       Initial release.
       Tracks the FormAssembly form lifecycle (view, start, step_N, submit,
