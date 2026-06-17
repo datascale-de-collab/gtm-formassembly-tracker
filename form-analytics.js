@@ -11,6 +11,7 @@
  *
  * Transport is dataLayer.push only. The script makes no network calls itself.
  *
+ * Copyright 2026 Datascale One GmbH
  * License: Apache-2.0
  */
 (function () {
