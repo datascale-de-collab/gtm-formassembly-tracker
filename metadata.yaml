@@ -1,0 +1,12 @@
+homepage: "https://datascale.de/ressourcen/"
+documentation: "https://github.com/datascale-de-collab/gtm-formassembly-tracker#readme"
+versions:
+  # Latest version first. The sha must reference the commit that contains the
+  # template.tpl you want published. Get it from the commit view in GitHub
+  # (clipboard icon copies the full SHA).
+  - sha: "REPLACE_WITH_FULL_COMMIT_SHA"
+    changeNotes: |
+      Initial release.
+      Tracks the FormAssembly form lifecycle (view, start, step_N, submit,
+      error) and pushes consent-gated events to the dataLayer. Supports
+      multi-step and modal forms, SPA navigation, and OneTrust consent gating.
